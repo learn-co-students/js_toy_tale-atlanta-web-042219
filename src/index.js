@@ -1,12 +1,8 @@
-// global variables
-const addBtn = document.querySelector('#new-toy-btn')
-const toyForm = document.querySelector('.container')
-let addToy = false
-// ...
-
 document.addEventListener('DOMContentLoaded', function() {
-	fetch_toys()
+	addBtn_event()
+
 	let btn = document.querySelector('input.submit').addEventListener('click', submit_new_toy)
+	fetch_toys()
 })
 
 function submit_new_toy(e) {
@@ -36,22 +32,28 @@ function display_toys(obj_arr) {
 		const p = document.createElement('p')
 		p.innerText = 'Likes: '+toy.likes
 
-		const button = document.createElement('button')
-		button.innerText = 'Like this toy!'
-		button.className = 'like-btn'
-		button.addEventListener('click', like)
+		const like_btn = document.createElement('button')
+		like_btn.innerText = 'Like this toy!'
+		like_btn.className = 'like-btn'
+		like_btn.addEventListener('click', like_toy)
+
+		const del_btn = document.createElement('button')
+		del_btn.innerText = 'Delete'
+		del_btn.className = 'like-btn'
+		del_btn.addEventListener('click', handleDeleteBtn)
 
 		div.appendChild(img)
 		div.appendChild(h2)
 		div.appendChild(p)
-		div.appendChild(button)
+		div.appendChild(like_btn)
+		div.appendChild(del_btn)
 
 		const all_toys_div = document.querySelector('div#toy-collection')
 		all_toys_div.appendChild(div)
 	})
 }
 
-function like(e) {
+function like_toy(e) {
 	let card = e.target.parentElement.children
 	let toy = {
 		id: e.target.parentElement.dataset.id,
@@ -63,7 +65,20 @@ function like(e) {
 	e.target.parentElement.children[2].innerText = 'Likes: '+(parseInt(card[2].innerText.split(' ')[1])+1)
 }
 
+function handleDeleteBtn(e) {
+	if ( confirm('Are you sure?') ) {
+		delete_toy(e.target.parentElement.dataset.id)
+		e.target.parentElement.remove()
+	}
+}
+
 // FETCH METHODS
+
+function fetch_toys() {
+	return fetch('http://localhost:3000/toys')
+	.then( res => test = res.json() )
+	.then( json => display_toys(json) )
+}
 
 function add_toy(toy) {
   return fetch('http://localhost:3000/toys',{
@@ -87,21 +102,27 @@ function update_toy(toy) {
   }).then((res)=>res.json())
 }
 
-function fetch_toys() {
-	return fetch('http://localhost:3000/toys')
-	.then( res => test = res.json() )
-	.then( json => display_toys(json) )
+function delete_toy(id) {
+  return fetch(`http://localhost:3000/toys/${id}`,{
+    method: 'DELETE'
+  }).then((res)=>res.json())
 }
 
 // ...
 
-addBtn.addEventListener('click', () => {
-  // hide & seek with the form
-  addToy = !addToy
-  if (addToy) {
-    toyForm.style.display = 'block'
-    // submit listener here
-  } else {
-    toyForm.style.display = 'none'
-  }
-})
+function addBtn_event() {
+	const addBtn = document.querySelector('#new-toy-btn')
+	const toyForm = document.querySelector('.container')
+	let addToy = false
+
+	addBtn.addEventListener('click', () => {
+	  // hide & seek with the form
+	  addToy = !addToy
+	  if (addToy) {
+	    toyForm.style.display = 'block'
+	    // submit listener here
+	  } else {
+	    toyForm.style.display = 'none'
+	  }
+	})
+}

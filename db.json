@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 6
     },
     {
       "id": 2,
@@ -47,6 +47,36 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Ziggy",
+      "image": "blahblahblah",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Rose",
+      "image": "blahblahblah",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Rose",
+      "image": "https://img.chewy.com/is/image/catalog/118653_MAIN._AC_SL400_V1534452783_.jpg",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "Rose",
+      "image": "https://img.chewy.com/is/image/catalog/118653_MAIN._AC_SL400_V1534452783_.jpg",
+      "likes": 1,
+      "id": 12
+    },
+    {
+      "name": "tez",
+      "image": "https://img.chewy.com/is/image/catalog/118653_MAIN._AC_SL400_V1534452783_.jpg",
+      "likes": 0,
+      "id": 13
     }
   ]
 }

@@ -3,41 +3,6 @@ body {
   font-family: monospace;
 }
 
-#toy-header {
-  display: flex;
-  justify-content: center;
-  background: #515DA2;
-  opacity: .8;
-  height: 7rem;
-  padding: 1rem;
-}
-
-#toy-header img {
-  height: 6rem;
-  width: auto;
-}
-
-#toy-collection {
-  margin: 2rem;
-}
-
-.card {
-  text-align: center;
-  border: grey solid 1px;
-  padding: 1rem;
-  width: 15rem;
-  height: 25rem;
-  display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
-}
-
-.toy-avatar {
-  justify-self: center;
-  height: 12rem;
-  width: auto;
-}
-
 button {
   position: relative;
   background-color: #e04b52;
@@ -56,17 +21,60 @@ button:hover {
   color: #e04b52;
 }
 
+.btn-div button {
+  width: 4.5em;
+}
+
+.like-btn {
+  background-color: #75B75B;
+}
+
+#toy-header {
+  display: flex;
+  justify-content: center;
+  background: #515DA2;
+  opacity: .8;
+  height: 7rem;
+  padding: 1rem;
+}
+
+#toy-header img {
+  height: 6rem;
+  width: auto;
+}
+
+#toy-box {
+  margin: 2rem;
+}
+
+.toy-card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52
+}
+
+.toy-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
 .container {
+  display: none;
   padding: 1rem;
   width: stretch;
   height: auto;
-  display: none;
   background: #515DA2;
   opacity: .8;
 }
 
-.add-toy-form {
-  width: 80%
+#add-toy-form {
+  width: 80%;
 }
 
 .submit {

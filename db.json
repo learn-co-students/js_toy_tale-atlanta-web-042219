@@ -4,25 +4,25 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": "44"
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": "15"
     },
     {
       "id": 3,
       "name": "Mr. Potato Head",
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "likes": "8"
     },
     {
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "likes": "6"
     },
     {
       "id": 5,
@@ -40,13 +40,79 @@
       "id": 7,
       "name": "Hamm",
       "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "likes": "8"
     },
     {
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": "5"
+    },
+    {
+      "name": "Yosemite",
+      "image": "https://www.nationalgeographic.com/content/dam/travel/2019-digital/yosemite-guide/yosemite-national-park-california.ngsversion.1552510235776.adapt.1900.1.jpg",
+      "likes": "3",
+      "id": 9
+    },
+    {
+      "name": "vTech",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/7108HSmwBeL._SX679_.jpg",
+      "likes": "5",
+      "id": 10
+    },
+    {
+      "name": "Baby shark",
+      "image": "https://cdn.shopify.com/s/files/1/1012/1116/products/Baby_Shark_plush_front2_large.jpg?v=1527582094",
+      "likes": "9",
+      "id": 12
+    },
+    {
+      "name": "vTech",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51tBuAmAkdL._SY300_QL70_.jpg",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "demo",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51tBuAmAkdL._SY300_QL70_.jpg",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "krunal patel",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51tBuAmAkdL._SY300_QL70_.jpg",
+      "likes": "5",
+      "id": 15
+    },
+    {
+      "name": "pizza",
+      "image": "https://www.amazon.com/LEGO-Friends-Olivias-Mission-Building/dp/B075RDRJLX/ref=asc_df_B075RDRJLX/?tag=hyprod-20&linkCode=df0&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995&psc=1&tag=&ref=&adgrpid=62169749015&hvpone=&hvptwo=&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995",
+      "likes": "3",
+      "id": 16
+    },
+    {
+      "name": "fds",
+      "image": "https://learn.co/tracks/web-development-immersive-3-0-module-three/classroom-materials/pair-programming-labs/toy-tale-client-server-communication",
+      "likes": "3",
+      "id": 17
+    },
+    {
+      "name": "demo",
+      "image": "https://www.amazon.com/LEGO-Friends-Olivias-Mission-Building/dp/B075RDRJLX/ref=asc_df_B075RDRJLX/?tag=hyprod-20&linkCode=df0&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995&psc=1&tag=&ref=&adgrpid=62169749015&hvpone=&hvptwo=&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995",
+      "likes": 0,
+      "id": 18
+    },
+    {
+      "name": "demo",
+      "image": "https://www.amazon.com/LEGO-Friends-Olivias-Mission-Building/dp/B075RDRJLX/ref=asc_df_B075RDRJLX/?tag=hyprod-20&linkCode=df0&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995&psc=1&tag=&ref=&adgrpid=62169749015&hvpone=&hvptwo=&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995",
+      "likes": 0,
+      "id": 19
+    },
+    {
+      "name": "vTech",
+      "image": "https://www.amazon.com/LEGO-Friends-Olivias-Mission-Building/dp/B075RDRJLX/ref=asc_df_B075RDRJLX/?tag=hyprod-20&linkCode=df0&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995&psc=1&tag=&ref=&adgrpid=62169749015&hvpone=&hvptwo=&hvadid=312079208392&hvpos=1o1&hvnetw=g&hvrand=813208784165576246&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015254&hvtargid=pla-435494422995",
+      "likes": "3",
+      "id": 20
     }
   ]
 }

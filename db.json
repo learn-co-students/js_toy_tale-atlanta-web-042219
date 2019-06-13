@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 11
+      "likes": 5
     },
     {
       "id": 2,
@@ -47,12 +47,6 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
-    },
-    {
-      "name": "Stretch Armstrong",
-      "image": "https://cdn11.bigcommerce.com/s-iem2p/images/stencil/500x500/products/20143/41919/small-stretch-armstrong-oty__80120.1544309829.jpg?c=2",
-      "likes": 0,
-      "id": 9
     }
   ]
 }
